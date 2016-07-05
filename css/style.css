@@ -1,0 +1,298 @@
+h1, h2{
+	font-family: 'Lato', sans-serif;
+}
+
+header {
+	background-color: rgb(0,100,140);
+	color: white;
+	text-align: center;
+	padding: 25px 0px;
+}
+
+div {
+	margin-top: 30px;
+}
+
+form {
+
+	margin: 50px auto;
+	text-align: center;
+}
+
+.btn-primary {
+	background-color: rgb(0,100,140) !important;
+    transition-duration: 400ms;
+}
+
+.btn-primary:hover {
+	background-color: black !important;
+}
+
+.tab-level {
+	margin-top: 50px;
+}
+
+.nav-tabs {
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+}
+
+table {
+	width: 50% !important;
+}
+
+a[href*="index"]:hover {
+	text-decoration: none;
+}
+
+header h1 {
+    transition-duration: 500ms;
+}
+
+h1 small {
+	color: white;
+}
+
+header:hover h1{
+	color: lightgrey !important;
+}
+
+footer {
+	margin: 25px 0 50px;
+	color: grey;
+}
+
+.auth {
+	margin-top: 50px;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 700px;
+    overflow-x: hidden;
+    border: 1px solid lightgrey;
+    padding: 10px 20px;
+    list-style: none;
+}
+
+.scrollable-menu li{
+    display: flex;
+    text-align: center;
+    border-top: 1px solid lightgrey;
+    padding: 10px 0 0 10px;
+}
+
+.scrollable-menu li:hover {
+	background: rgb(238, 238, 238);
+}
+
+.scrollable-menu span{
+    width: 45%;
+}
+
+.scrollable-menu li:first-child{
+    border-top: none;
+}
+
+.t3-lux {
+	margin-top: 100px; 
+}
+
+.lastRow {
+	display: flex;
+}
+
+.lastRow span {
+	width: 45%;
+	text-align: center;
+}
+
+.lastSpan {
+	flex-shrink: 2;
+	position: relative;
+	top: -5px;
+}
+
+.lastSpan a{
+	flex-shrink: 2;
+	padding: 12px 5px 5px;
+
+}
+
+.fa-times {
+	color: #E88989;
+}
+
+.scrollable-menu span p{
+    margin: 0;
+}
+
+#T3_reg_submit, #T3Bing_reg_submit, #reg_submit, #lux_submit, #bing_reg_submit, #bing_lux_submit, #yahoo_reg_submit, #yahoo_lux_submit, #SEIM_reg_submit {
+	margin-top: 30px;
+}
+
+#T3campaignlist, #T3Bingcampaignlist, #SEIMGooglecampaignlist {
+	border: 1px solid lightgrey;
+	height: 500px;
+    padding: 10px 20px;
+}
+
+#T3campaignlist ul, #T3Bingcampaignlist ul, #SEIMGooglecampaignlist ul {
+	list-style: none;
+	padding: 0;
+}
+
+#T3campaignlist li, #T3Bingcampaignlist li, #SEIMGooglecampaignlist li {
+    display: flex;
+    text-align: center;
+    border-top: 1px solid lightgrey;
+    padding: 10px 0 10px 10px;
+}
+
+#T3campaignlist li:first-child, #T3Bingcampaignlist li:first-child, #SEIMGooglecampaignlist li:first-child {
+    border-top: none;	
+}
+
+#T3campaignlist span, #T3Bingcampaignlist span , #SEIMGooglecampaignlist span{
+    width: 50%;
+}
+
+#T3campaignlist a, #T3Bingcampaignlist a, #SEIMGooglecampaignlist a {
+    padding: 5px;
+}
+
+.lastCampaignRow {
+	display: flex;
+	margin: 0;
+}
+
+.lastCampaignRow span {
+	width: 114% !important;
+	text-align: center;
+}
+
+.lastCampaignRow span:first-child {
+	padding-right: 5px;
+}
+
+.lastCampaignSpan {
+	flex-shrink: 2;
+	padding: 24px 5px 0px;
+}
+
+.T3_add_campaigns, .T3Bing_add_campaigns, .SEIM_add_campaigns {
+	padding: 9px !important;
+}
+
+.T3_add_campaigns i, .T3Bing_add_campaigns i, .SEIM_add_campaigns i {
+	position: relative;
+    top: -3px;
+}
+
+.t3SpecRow {
+	margin-top: 50px;
+}
+
+
+.editable-clear-x {
+	display: none !important;
+}
+
+.popover {
+	height: 56px;
+    top: 51px;
+}
+
+.popover-content {
+	position: relative;
+    top: -3px;
+    height: 58px;
+    margin: 0;
+}
+
+.control-group {
+	position: relative;
+    top: -28px;
+    margin: 0;
+}
+
+.control-group > :first-child {
+	position: relative;
+    top: 3px;
+    height: 39px;
+    margin: 0;
+}
+
+.editableform {
+    height: 0px;
+    margin: 0;
+}
+
+.editable-input {
+	margin: 0;
+}
+
+.editable-buttons {
+	margin-top: 0;
+	margin-left: 10px;
+}
+
+a.ajax-edit, a.ajax-edit-bing, a.ajax-edit-seim, a.ajax-edit-yahoo, a.ajax-edit-yahoo-lux, a.ajax-edit-bing-t2, a.ajax-edit-bing-t2-lux, a.ajax-edit-google-t2, a.ajax-edit-google-t2-lux  {
+	color: black;
+}
+
+.checkInput {
+	width: 30%;
+	font-size: 30px;
+}
+
+.checkInput input{
+	margin-top: 35px;
+
+}
+
+#T2Google form, #T2Bing form, #T2Yahoo form, #T3Google form, #T3Bing form, #SEIM form {
+	margin: 0;
+}
+
+#sheet, #SEIMid {
+	width: 40%;
+}
+
+#t2 {
+	width: 10%;
+}
+
+#t3 {
+	width: 10%;
+}
+
+.formAlign {
+	padding-top: 5px;
+}
+
+.log-screen {
+	margin-top: 0px;
+}
+
+.tab-level {
+	margin-top: 20px;
+}
+
+.column-select {
+	margin-top: -8px;
+}
+
+.lux-column {
+	margin-top: 37px;
+}
+
+#Buttons form {
+	margin-top: 36px;
+}
+
+h4 {
+	color: #337ab7;
+	margin-top: 39px;
+
+}
