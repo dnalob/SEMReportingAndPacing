@@ -4,7 +4,12 @@ PHP driven tool that downloads SEM reports from the Google Adwords, Bing Ads, an
 
 ![wizard](https://hiduth.com/wp-content/uploads/2015/06/witchcraft-wizards.jpg)
 
-## Code Example
+## Libraries Used
+
+*[Google Ads API PHP Client Library](https://github.com/googleads/googleads-php-lib)
+*Bing Ads API
+*Yahoo Gemini API
+*Google Sheets
 
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
