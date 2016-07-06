@@ -14,6 +14,8 @@ PHP driven tool that downloads SEM reports from the Google Adwords, Bing Ads, an
 * [PHPExcel](https://github.com/PHPOffice/PHPExcel)
 * [PHPMailer](https://github.com/PHPMailer/PHPMailer)
 
+## Code Example
+
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
 ## Motivation
