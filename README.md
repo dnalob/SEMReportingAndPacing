@@ -16,7 +16,7 @@ PHP driven tool that downloads SEM reports from the Google Adwords, Bing Ads, an
 
 ## Motivation
 
-Pacing is a task that the SEM account managers have to perform every few days. It requires accessing PPC metrics of each account, namely Spend and Clicks, then inserting them into a Google Sheets file. The account managers then perform a series of calculations to determine whether to increase or decrease their budgets. This is my attempt to automate most of this process.
+Pacing is a task that the SEM account managers in my agency have to perform every few days. It requires accessing PPC metrics of each account, namely Spend and Clicks, then inserting them into a Google Sheets file. The account managers then perform a series of calculations to determine whether to increase or decrease their budgets. This is my attempt to automate most of this process.
 
 ## Installation
 
