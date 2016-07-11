@@ -20,4 +20,4 @@ Pacing is a task that the SEM account managers in my agency have to perform ever
 
 ## Installation
 
-Everything should be there, although you might need to add the Guzzle HTTP dependency because I had to delete it from the project in order to commit.
+All the dependencies should be good to go here in the project folder.
