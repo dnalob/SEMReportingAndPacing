@@ -1,6 +1,6 @@
 # SEMReportingAndPacing
 
-PHP driven tool that downloads SEM reports from the Google Adwords, Bing Ads, and Yahoo Gemini APIs, extracts PPC data, then inserts data into Google Sheets spreadsheet using the Google Sheets API; complete with GUI and dynamic account list.
+PHP driven tool that downloads SEM reports from the Google Adwords, Bing Ads, and Yahoo Gemini APIs, extracts PPC data, then dynamically inserts data into Google Sheets spreadsheet using the Google Sheets API. A UI allows the user to add/edit/delete new accounts into the process with a user friendly account list.
 
 ![wizard](https://hiduth.com/wp-content/uploads/2015/06/witchcraft-wizards.jpg)
 
@@ -16,8 +16,8 @@ PHP driven tool that downloads SEM reports from the Google Adwords, Bing Ads, an
 
 ## Motivation
 
-Pacing is a task that the SEM account managers in my agency have to perform every few days. It requires accessing PPC metrics of each account, namely Spend and Clicks, then inserting them into a Google Sheets file. The account managers then perform a series of calculations to determine whether to increase or decrease their budgets. This is my attempt to automate most of this process.
+Pacing is a task that the SEM account managers in my agency have to perform every few days. It requires accessing PPC metrics of each account, namely Spend and Clicks, then inserting them into a Google Sheets file. They then perform a series of calculations to determine whether to increase or decrease the daily budgets. This is an automation of this process across all accounts.
 
 ## Installation
 
-All the dependencies should be good to go here in the project folder.
+Most of the core dependencies are listed above.
